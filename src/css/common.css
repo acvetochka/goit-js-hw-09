@@ -34,3 +34,22 @@ img {
 .btn[disabled] {
   background-color: #ccc9c9;
 }
+
+.timer {
+  display: flex;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+span.value {
+  font-size: 40px;
+}
+
+span.label {
+  text-transform: uppercase;
+}
